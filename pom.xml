@@ -8,6 +8,12 @@
     <artifactId>APIAutomate</artifactId>
     <version>1.0-SNAPSHOT</version>
 <dependencies>
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310 -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.datatype</groupId>
+        <artifactId>jackson-datatype-jsr310</artifactId>
+        <version>2.13.3</version>
+    </dependency>
 
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
@@ -16,9 +22,15 @@
             <version>4.13.2</version>
 
         </dependency>
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jdk8 -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.datatype</groupId>
+        <artifactId>jackson-datatype-jdk8</artifactId>
+        <version>2.13.3</version>
+    </dependency>
 
 
-        <!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
+    <!-- https://mvnrepository.com/artifact/tech.grasshopper/extentreports-cucumber7-adapter -->
         <dependency>
             <groupId>tech.grasshopper</groupId>
             <artifactId>extentreports-cucumber7-adapter</artifactId>
@@ -85,7 +97,8 @@
             <artifactId>cucumber-testng</artifactId>
             <version>7.4.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-testng-adapter -->
+
+    <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports-testng-adapter -->
         <dependency>
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports-testng-adapter</artifactId>
@@ -98,6 +111,24 @@
         <version>7.4.1</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.13.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-core</artifactId>
+        <version>2.13.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations -->
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-annotations</artifactId>
+        <version>2.13.3</version>
+    </dependency>
 
     <dependency>
             <groupId>org.apache.logging.log4j</groupId>

@@ -6,5 +6,5 @@ Feature: Feature for Login against email and password
     Then login response should be "200"
     Examples:
       | email | password |
-    |Rohit Sharma|Anything|
-    |Ravikant Singh|AnythingMore|
+    |eve.holt@reqres.in|cityslicka|
+    |RavikantSingh|AnythingMore|
